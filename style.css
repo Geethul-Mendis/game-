@@ -1,0 +1,20 @@
+body {
+    /*Line 3 hides stuff below the screen:*/
+    overflow:hidden;
+    background-color: rgb(0, 162, 255);
+}
+
+#player {
+    position:absolute;
+    background-color:blue;
+    width:100px;
+    height:100px;
+}
+
+/*You can remove lines 13-19 when you start. This was just for a demo*/
+#demo_obstacle {
+    position:absolute;
+    background-color:green;
+    width:300px;
+    height:10px;
+}
